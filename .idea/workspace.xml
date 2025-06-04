@@ -4,7 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01af464d-2565-46d3-b502-97df2a86c875" name="Changes" comment="Переміщено папку dist у docs" />
+    <list default="true" id="01af464d-2565-46d3-b502-97df2a86c875" name="Changes" comment="Переміщено папку dist у docs">
+      <change afterPath="$PROJECT_DIR$/docs/software.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/software/RestFullService.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/software/db_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/software/db_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/software/db_writer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/@theme_index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/cache/deps/@theme_index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/@theme_index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/cache/deps/@theme_index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/cache/deps/_metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/chunk-LW4I4DCF.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/chunk-LW4I4DCF.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/chunk-Z5QSWKN2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/chunk-Z5QSWKN2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/cache/deps/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vitepress___@vue_devtools-api.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vitepress___@vue_devtools-api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vitepress___@vue_devtools-api.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vitepress___@vue_devtools-api.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vitepress___@vueuse_core.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vitepress___@vueuse_core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vitepress___@vueuse_core.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vitepress___@vueuse_core.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vue.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/cache/deps/vue.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/dist/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/api-examples.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/assets/api-examples.md.8pndvwU7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/assets/api-examples.md.8pndvwU7.lean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/assets/app.Bjw4HQj7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/assets/authors.md.D_dZ9AEy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/assets/authors.md.D_dZ9AEy.lean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/assets/chunks/framework.BUjEV7Eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/assets/chunks/theme.DFJXeYIa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/assets/index.md.FmTUAeU3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/assets/index.md.FmTUAeU3.lean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/assets/style.BxRS-zzZ.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/assets/vstup.md.BUtZIA4x.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/assets/vstup.md.BUtZIA4x.lean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/assets/zapity.md.DaaSYGf3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/assets/zapity.md.DaaSYGf3.lean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/authors.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/dist/authors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/hashmap.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/dist/hashmap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/vstup.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/dist/vstup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/zapity.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/dist/zapity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,8 +66,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Ruslan-LT/DB_Labs&quot;,
-    &quot;accountId&quot;: &quot;9a3348c1-3605-461f-8945-fecc6b17c4bf&quot;
+    &quot;url&quot;: &quot;https://github.com/nexus-ct/DB_Lab6.git&quot;,
+    &quot;accountId&quot;: &quot;baf0c490-4948-4519-8005-e7a3fb761e52&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -51,6 +96,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\TRRES\WebstormProjects\DB_Lab6\src\software" />
       <recent name="C:\Users\arekh\WebstormProjects\Develop2\docs" />
     </key>
   </component>
@@ -96,7 +142,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
       </set>
     </attachedChunks>
   </component>
@@ -111,6 +157,8 @@
       <workItem from="1741706551920" duration="2635000" />
       <workItem from="1745226470520" duration="3200000" />
       <workItem from="1745229951684" duration="1478000" />
+      <workItem from="1749043671230" duration="8063000" />
+      <workItem from="1749073604746" duration="715000" />
     </task>
     <task id="LOCAL-00001" summary="Что-то изменил">
       <option name="closed" value="true" />

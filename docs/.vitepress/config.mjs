@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Проєкт студентів ФІОТу",
   description: "Лабораторні",
-  base:"/DB_Labs/",
+  base:"/DB_Lab6/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -20,7 +20,7 @@ export default defineConfig({
       { text: 'Модель прецедентів', link: '/lab2'},
       { text: 'Проєктування інформаційного забезпечення: проєктування бази данних', link: '/lab3' },
       { text: 'Реалізація інформаційного та програмного забезпечення', link: '/lab5' },
-      
+      { text: 'RestFull сервіс для управління даними', link: '/software' },
     ],
 
 

@@ -1,0 +1,1 @@
+import{_ as a,c as l,o as e,ae as i}from"./chunks/framework.BitmDC1G.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"authors.md","filePath":"authors.md"}'),o={name:"authors.md"};function r(s,t,n,_,c,p){return e(),l("div",null,t[0]||(t[0]=[i("",4)]))}const m=a(o,[["render",r]]);export{d as __pageData,m as default};

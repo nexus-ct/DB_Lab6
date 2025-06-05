@@ -4,7 +4,107 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01af464d-2565-46d3-b502-97df2a86c875" name="Changes" comment="Зробив копію репозиторію, добавив новий розділ для 6-ой лабораторної, добавив 4 файли програмного забезпечення" />
+    <list default="true" id="01af464d-2565-46d3-b502-97df2a86c875" name="Changes" comment="Повністю зробив розділ &quot;RestFull сервіс для управління відкритими даним&quot; та &quot;Тестування працездатності системи&quot;">
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/cache/deps/chunk-LS57BFBI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/cache/deps/chunk-LS57BFBI.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/cache/deps/chunk-SXKI64VU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/cache/deps/chunk-SXKI64VU.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/AdminBan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/AdminConfigChange.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/AdminConfigUpload.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/AdminDelete.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/AdminExit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/AdminLogin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/AdminUpload.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/Administrator.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/BuisnessObjectsModels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/ERModel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/Guest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/GuestDownload.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/GuestRegistration.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/GuestSearch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/RateData.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/RelSchema.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/TotalSchema.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/User.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/UserEditSuggestions.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/UserExit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/UserLogin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/UserUploadSuggestion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/VizualizateData.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/AdminBan.BXXpGFMC.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/AdminConfigChange.DMAeP0wF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/AdminConfigUpload.CMvYm9BV.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/AdminDelete.BezCMO5G.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/AdminEdit.nYfSHLbX.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/AdminExit.DETmWkqU.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/AdminLogin.myhqJp0A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/AdminUpload.C-IHZGXi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/GuestDownload.DyVRgYE6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/GuestRegistration.XyarEf8_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/GuestSearch.DqpFm-8e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/RateData.DQXEs8u6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/UserEditSuggestions.B0RoVY76.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/UserExit.C0P6vq9Y.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/UserLogin.BOXB_LOE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/UserUploadSuggestion.DBQWE0yv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/VizualizateData.puXNDpmY.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/app.XGddoO5h.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/authors.md.D6bA2saQ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/authors.md.D6bA2saQ.lean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/chunks/framework.BitmDC1G.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/chunks/theme.BOFARGXE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/index.md.C7F7rIv6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/index.md.C7F7rIv6.lean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/lab2.md.DnOBkepX.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/lab2.md.DnOBkepX.lean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/lab3.md.DAamAuNi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/lab3.md.DAamAuNi.lean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/lab5.md.BXSyeBR1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/lab5.md.BXSyeBR1.lean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/software.md.C0kvMj6A.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/software.md.C0kvMj6A.lean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/style.BGBfDOiu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/testing.md.nlNyANIf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/testing.md.nlNyANIf.lean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/vstup.md.DHickQR2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/vstup.md.DHickQR2.lean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/vstup_1.md.-A3f7j6Y.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/vstup_1.md.-A3f7j6Y.lean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/zapity.md.flztMubY.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/assets/zapity.md.flztMubY.lean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/lab2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/lab3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/lab5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/software.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/testing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vitepress/dist/vstup_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test img/failed_delete_user_not_found_screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test img/failed_login_wrong_email_screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test img/failed_login_wrong_password_screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test img/failed_registration_screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test img/failed_role_change_no_permission_screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test img/failed_role_change_wrong_admin_credentials_screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test img/failed_role_change_wrong_user_email_screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test img/fetch_users_screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test img/successful_delete_user_screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test img/successful_login_screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test img/successful_registration_screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test img/successful_role_change_screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test img/user_already_has_role_screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/testing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/dist/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/authors.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/dist/authors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/hashmap.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/dist/hashmap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/vstup.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/dist/vstup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vitepress/dist/zapity.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/dist/zapity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/software.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/software.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/software/db_writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/software/db_writer.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,23 +133,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.docs:build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.docs:dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.docs:preview.executor&quot;: &quot;Run&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/TRRES/WebstormProjects/DB_Lab6/docs",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.docs:build.executor": "Run",
+    "npm.docs:dev.executor": "Run",
+    "npm.docs:preview.executor": "Run",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TRRES\WebstormProjects\DB_Lab6\docs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\TRRES\WebstormProjects\DB_Lab6\src\software" />
       <recent name="C:\Users\arekh\WebstormProjects\Develop2\docs" />
@@ -113,7 +217,8 @@
       <workItem from="1745226470520" duration="3200000" />
       <workItem from="1745229951684" duration="1478000" />
       <workItem from="1749043671230" duration="8063000" />
-      <workItem from="1749073604746" duration="1044000" />
+      <workItem from="1749073604746" duration="6746000" />
+      <workItem from="1749108886078" duration="2959000" />
     </task>
     <task id="LOCAL-00001" summary="Что-то изменил">
       <option name="closed" value="true" />
@@ -179,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749074451529</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Зробив копію репозиторію, добавив новий розділ для 6-ой лабораторної, добавив 4 файли програмного забезпечення">
+      <option name="closed" value="true" />
+      <created>1749074994160</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1749074994160</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +305,7 @@
     <MESSAGE value="Остаточно дороблено 1 лабу" />
     <MESSAGE value="Переміщено папку dist у docs" />
     <MESSAGE value="Зробив копію репозиторію, добавив новий розділ для 6-ой лабораторної, добавив 4 файли програмного забезпечення" />
-    <option name="LAST_COMMIT_MESSAGE" value="Зробив копію репозиторію, добавив новий розділ для 6-ой лабораторної, добавив 4 файли програмного забезпечення" />
+    <MESSAGE value="Повністю зробив розділ &quot;RestFull сервіс для управління відкритими даним&quot; та &quot;Тестування працездатності системи&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Повністю зробив розділ &quot;RestFull сервіс для управління відкритими даним&quot; та &quot;Тестування працездатності системи&quot;" />
   </component>
 </project>

@@ -20,12 +20,13 @@ export default defineConfig({
       { text: 'Модель прецедентів', link: '/lab2'},
       { text: 'Проєктування інформаційного забезпечення: проєктування бази данних', link: '/lab3' },
       { text: 'Реалізація інформаційного та програмного забезпечення', link: '/lab5' },
-      { text: 'RestFull сервіс для управління даними', link: '/software' },
+      { text: 'RestFull сервіс для управління відкритими даними', link: '/software' },
+      { text: 'Тестування працездатності системи', link: '/testing' },
     ],
 
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Ruslan-LT/DB_Labs.git' }
+      { icon: 'github', link: 'https://github.com/nexus-ct/DB_Lab6.git' }
     ]
   }
 })

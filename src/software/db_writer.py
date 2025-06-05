@@ -34,7 +34,7 @@ def register_user(cursor, login, first_name, last_name, password, email, role_id
 
         insert_query = '''INSERT INTO "Users"(
             id, login, first_name, last_name, password, email, role_id)
-            VALUES (%s, %s, %s, %s, %s, %s, %s)'''
+                          VALUES (%s, %s, %s, %s, %s, %s, %s)'''
         data = (next_id, login, first_name, last_name, password, email, role_id)
         cursor.execute(insert_query, data)
         cursor.connection.commit()
@@ -60,15 +60,16 @@ def authenticate_user(cursor, password, email):
     try:
         cursor.execute('SELECT password, email FROM "Users" WHERE email = %s', (email,))
         user_data = cursor.fetchone()
-        if user_data and user_data[0] == password:
+
+        if user_data is None:
+            return "User not found!"
+
+        if user_data[0] == password:
             return "User login successful!"
         else:
             return "Password is wrong!"
-    except (errors.InvalidTextRepresentation, ValueError, errors.InFailedSqlTransaction,
-            errors.StringDataRightTruncation) as e:
+    except Exception as e:
         raise e
-    except TypeError:
-        raise
     finally:
         cursor.close()
 
@@ -89,32 +90,33 @@ def update_user_role(cursor, email, email_admin, password_admin, role_id):
     try:
         with db_connection.conn.cursor() as admin_cursor:
             auth_result = authenticate_user(admin_cursor, password_admin, email_admin)
-        if auth_result == "Password is wrong!":
+        if auth_result != "User login successful!":
             return auth_result
-        else:
-            cursor.execute('SELECT role_id FROM "Users" WHERE email = %s', (email_admin,))
-            admin_data = cursor.fetchone()
-            if admin_data and admin_data[0] == 2:
-                cursor.execute('SELECT role_id FROM "Users" WHERE email = %s', (email,))
-                user_data = cursor.fetchone()
-                if user_data and user_data[0] == role_id:
-                    return "User already has this role!"
-                else:
-                    if role_id == 1:
-                        cursor.execute('UPDATE "Users" SET role_id = 1 WHERE email = %s', (email,))
-                        cursor.connection.commit()
-                        return "You successfully updated role to 1"
-                    elif role_id == 2:
-                        cursor.execute('UPDATE "Users" SET role_id = 2 WHERE email = %s', (email,))
-                        cursor.connection.commit()
-                        return "You successfully updated role to 2"
-            else:
-                return "You have no permission for that"
-    except (errors.InvalidTextRepresentation, ValueError, errors.InFailedSqlTransaction,
-            errors.StringDataRightTruncation) as e:
+
+        cursor.execute('SELECT role_id FROM "Users" WHERE email = %s', (email_admin,))
+        admin_data = cursor.fetchone()
+
+        if admin_data is None:
+            return "Admin not found!"
+
+        if admin_data[0] != 2:
+            return "You have no permission for that"
+
+        cursor.execute('SELECT role_id FROM "Users" WHERE email = %s', (email,))
+        user_data = cursor.fetchone()
+
+        if user_data is None:
+            return "User not found!"
+
+        if user_data[0] == role_id:
+            return "User already has this role!"
+
+        cursor.execute('UPDATE "Users" SET role_id = %s WHERE email = %s', (role_id, email))
+        cursor.connection.commit()
+        return f"You successfully updated role to {role_id}"
+
+    except Exception as e:
         raise e
-    except TypeError:
-        raise
     finally:
         cursor.close()
 
@@ -130,6 +132,12 @@ def delete_user(cursor, email):
         str: Повідомлення про успішне видалення або помилку.
     """
     try:
+        cursor.execute('SELECT email FROM "Users" WHERE email = %s', (email,))
+        user_data = cursor.fetchone()
+
+        if user_data is None:
+            return "User not found!"
+
         cursor.execute('DELETE FROM "Users" WHERE email = %s', (email,))
         cursor.connection.commit()
         return "User deleted successfully"

@@ -22,6 +22,7 @@ export default defineConfig({
       { text: 'Реалізація інформаційного та програмного забезпечення', link: '/lab5' },
       { text: 'RestFull сервіс для управління відкритими даними', link: '/software' },
       { text: 'Тестування працездатності системи', link: '/testing' },
+      { text: 'Висновки', link: '/conclusion' },
     ],
 
 
